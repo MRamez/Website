@@ -1,0 +1,170 @@
+body
+{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+h1
+{
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #EFEFEF;
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #EFEFEF;
+    padding-bottom: 10px;
+}
+
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFC947;
+}
+
+a
+{
+    color: #a37f2a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+a:hover
+{
+    color: #0A1931;
+}
+
+hr
+{
+    border-style: dotted none none none;
+    border-color: #0A1931;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p
+{
+    line-height: 2;
+}
+
+.top-container
+{
+    background-color: #0A1931;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container
+{
+    background-color: #185ADB;
+}
+
+.bottom-container
+{
+    background-color: #FFC947;
+    padding: 30px 0;
+}
+
+.bottom-cloud
+{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 150px auto;
+    text-align: left;
+}
+
+.code-image
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.graph-image
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile
+{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.profile-image
+{
+    width: 25%;
+}
+
+.contact-me
+{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.btn
+{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 5px 20px;
+    background-color: #FFC947;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FFC947 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 50px auto 100px auto;
+}
+ 
+.btn:hover
+{
+    color: white;
+    background: #0A1931;
+    border: solid #0A1931 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.copyright
+{
+    margin-bottom: 0;
+    font-size: small;
+    padding: 10px 0;
+}
